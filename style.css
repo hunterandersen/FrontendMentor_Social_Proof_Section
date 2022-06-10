@@ -4,10 +4,27 @@
   --color-dark-grayish-magenta: hsl(303, 10%, 53%);
   --color-light-grayish-magenta: hsl(300, 24%, 96%);
   --color-white: hsl(0, 0%, 100%);
+
   box-sizing: border-box;
+  margin:0;
+  font-family: 'League Spartan', sans-serif;
 }
 
+body{
+    margin:10px;
+}
 
+.main-container{
+    display:flex;
+
+    
+}
+
+section{
+    background-color: var(--color-dark-grayish-magenta);
+    width:500px;
+    flex-grow: 1;
+}
 
 /* Footer */
 .attribution {
